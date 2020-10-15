@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF056C9A"
+    android:orientation="vertical"
+    tools:context=".Checkout">
+
+    <TextView
+        android:id="@+id/Checkout"
+        style="@style/head"
+        android:autoText="false"
+        android:text="@string/Checkout"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+
+    <TextView
+        style="@style/head"
+        android:layout_margin="50dp"
+        android:text="@string/Checkout2"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/radioG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:orientation="vertical">
+
+    </RadioGroup>
+
+    <TextView
+        style="@style/head"
+        android:text="@string/Checkout3"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:id="@+id/Payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/ChkCredit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/CheckoutCreditCard"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/ChkDebit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/CheckoutDebitCard"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/ChkCash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/CheckoutCash"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/BtnChk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:paddingLeft="50dp"
+        android:text="NEXT"
+        android:textSize="24sp" />
+
+</LinearLayout>

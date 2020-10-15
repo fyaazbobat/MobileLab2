@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/Deattached"
+        android:title="Detached Houses">
+    </item>
+
+    <item
+        android:id="@+id/SemiDetached"
+        android:title="Semi-detached Houses">
+    </item>
+
+    <item
+        android:id="@+id/Townhomes"
+        android:title="Town Houses">
+    </item>
+
+    <item
+        android:id="@+id/condominium"
+        android:title="Condominium">
+    </item>
+
+    <item
+        android:id="@+id/Apartment"
+        android:title="Apartment">
+
+    </item>
+</menu>

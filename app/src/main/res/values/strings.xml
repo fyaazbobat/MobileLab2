@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="head">Lease Or Rent A Home </string>
+
+    <string name="MenuText">Use the top menu to select home type! </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="detachedtext">Detached Homes</string>
+    <string name="addDetached">51 Maple Drive</string>
+    <string name="addDetached2">34 Queen Ave</string>
+    <string name="addDetached3">35 Newmaker road</string>
+
+
+    <string name="CondoText">Semi-Detached Homes</string>
+    <string name="addCondo">6 Sonic way</string>
+    <string name="addCondo2">13 Don Mills road</string>
+    <string name="addCondo3">5 vicora Linkway</string>
+
+    <string name="CondoCity">Toronto, Ontario</string>
+    <string name="CondoPrice">$1,100/Month</string>
+
+    <string name="SemiDetachedText">Semi-Detached Homes</string>
+    <string name="addSemiDetached">34 Stepping Stone Drive</string>
+    <string name="addSemiDetached2">85 Mountine Kreek</string>
+    <string name="addSemiDetached3">90 Wingmore Drive</string>
+
+
+    <string name="TownText">Town Houses</string>
+    <string name="addTown">81 Black Stone Drive</string>
+    <string name="addTown2">13 miss road</string>
+    <string name="addTown3">98 car Drive</string>
+
+
+    <string name="ApartText">Appartement</string>
+    <string name="addApart">100 rainbow Drive</string>
+    <string name="addApart2">14 speedway drive</string>
+    <string name="addApart3">18 Watson park</string>
+
+
+    <string name="Checkout">Checkout</string>
+    <string name="Checkout2">Choose from the following choices:</string>
+    <string name="Checkout3">Choose Payment Option:</string>
+
+    <string name="CheckoutCreditCard">Credit Card</string>
+    <string name="CheckoutDebitCard">Debit Card</string>
+    <string name="CheckoutCash">Cash</string>
+
+    <string name="AppCity">Toronto, Ontario</string>
+    <string name="AppPrice">$1,100/Month</string>
+
+    <string name="AppCity2">Toronto, Ontario</string>
+    <string name="AppPrice2">$1,250/Month</string>
+
+    <string name="AppCity3">Toronto, Ontario</string>
+    <string name="AppPrice3">$1,000/Month</string>
+    <string name="AppDes">2 bedroom</string>
+    <string name="AppDes2">1 bedroom</string>
+    <string name="AppDes3">2 bedroom</string>
+
+
+    <string name="Payment">Payment</string>
+    <string name="FName">Please Enter your Full Name:</string>
+
+    <string name="Cardnum">Enter your Card Number:</string>
+    <string name="sport">Enter your Favourite Sport Team:</string>
+    <string name="food">Enter your Favourite food:</string>
+
+
+</resources>

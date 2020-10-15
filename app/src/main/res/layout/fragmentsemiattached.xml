@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF056C9A"
+    tools:context=".SemiDetached">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF056C9A"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/head"
+            android:text="@string/SemiDetachedText"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF056C9A"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/imgda1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="20dp">
+
+                <TextView
+                    style="@style/hometext"
+                    android:paddingBottom="10dp"
+                    android:text="@string/addSemiDetached"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    style="@style/hometext"
+                    android:paddingBottom="10dp"
+                    android:text="Toronto, Ontario"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    style="@style/hometext"
+                    android:text="$2,300/Month"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/chkSTHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="50dp"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF056C9A"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/imgda2" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="20dp">
+
+                <TextView
+                    style="@style/hometext"
+                    android:paddingBottom="10dp"
+                    android:text="@string/addSemiDetached2"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    style="@style/hometext"
+                    android:paddingBottom="10dp"
+                    android:text="Toronto, Ontario"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    style="@style/hometext"
+                    android:text="$2,600/Month"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/chkSTHome2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="50dp"
+                android:paddingBottom="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF056C9A"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/imgda3" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="20dp">
+
+                <TextView
+                    style="@style/hometext"
+                    android:paddingBottom="10dp"
+                    android:text="@string/addSemiDetached3"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    style="@style/hometext"
+                    android:paddingBottom="10dp"
+                    android:text="Ottawa, Ontario"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    style="@style/hometext"
+                    android:text="$2,900/Month"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/chkSTHome3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="50dp"
+                android:paddingBottom="10dp" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/BtnSemiAttach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:paddingLeft="50dp"
+            android:text="NEXT"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+
